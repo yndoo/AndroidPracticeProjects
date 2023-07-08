@@ -1,5 +1,6 @@
 ## 주제 
-카카오톡 비밀번호 확인 화면을 따라했다. 화면만 구현했다.
+카카오톡 비밀번호 확인 화면을 따라했다. 화면만 구현했다.  
+  
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/3140ed4b-172a-4731-b5ab-c2f01d74a8ab/image.png)  
 [사진 출처 블로그](https://daily-life24.tistory.com/341)
 
