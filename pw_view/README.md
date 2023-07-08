@@ -5,7 +5,7 @@
 [사진 출처 블로그](https://daily-life24.tistory.com/341)
 
 ## 완성 모습  
-가지고 있던 태블릿에 실행하였다.
+가지고 있던 태블릿에 실행하였다.  
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/d419be83-8e72-4252-be9a-1cc41f5c7238/image.gif)
 
 ## 느낀 점  
