@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ch7_layout'
+    namespace 'com.example.ch8_event'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.ch7_layout"
+        applicationId "com.example.ch8_event"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -34,7 +34,7 @@ android {
         jvmTarget = '1.8'
     }
     buildFeatures {
-        viewBinding = true
+        viewBinding true
         compose true
     }
     composeOptions {

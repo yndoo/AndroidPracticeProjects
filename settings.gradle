@@ -16,3 +16,4 @@ rootProject.name = "AndroidLab"
 include ':app'
 include ':pw_view'
 include ':ch7_layout'
+include ':ch8_event'
