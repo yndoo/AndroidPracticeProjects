@@ -5,8 +5,7 @@
 # 완성 모습
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/bc8698a5-67f5-4176-a702-6c5e199619e4/image.gif)
 
-# 설명
-## 스톱워치 기능
+# 스톱워치 기능
 ### Start 버튼
 > 시작 버튼 이벤트 처리
 binding.chronometer.base = pauseTime `멈췄던 시간` + SystemClock.elapsedRealtime() `부팅 후 지속 경과 시간`
@@ -51,7 +50,7 @@ binding.resetbutton.setOnClickListener {
             binding.startbutton.isEnabled = true
         }
 ```
-## 뒤로 가기 버튼 이벤트 처리
+# 뒤로 가기 버튼 이벤트 처리
 > OS의 뒤로 가기 버튼 첫 클릭시 System.currentTimeMillis() `현재시각`에서 initTime `0`을 빼면 Toast 메시지를 띄우고 super.onKeyDown(keyCode, event)가 아닌 true를 리턴하여 종료되지 않게 한다.
 
 > 이때 initTime에 System.currentTimeMillis() `현재시각`이 저장되었기 때문에 다시 클릭시 클릭시점 시간과 initTime의 차가 3000밀리세컨 이하라면(종료버튼을 빠르게 두 번 눌렀다면) super.onKeyDown(keyCode, event)가 리턴되어 원래대로 종료 버튼의 기능을 수행한다.
@@ -77,5 +76,5 @@ override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
 * 예전에도 구현해본 기능인데, 하나하나 이해해보려고 하니 새로운 공부가 되어 부끄럽기도 하다.. ㅎ
 * System.currentTimeMillis() 값을 이용해서 `클릭 시간 차`를 알 수 있음을 상기시켰다.
 
-# 벨로그
+# [벨로그에서 보기](https://velog.io/@kuronuma_daisy/Android-%EC%8A%A4%ED%86%B1%EC%9B%8C%EC%B9%98-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84-%EB%92%A4%EB%A1%9C-%EA%B0%80%EA%B8%B0-%EB%B2%84%ED%8A%BC-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%B2%98%EB%A6%AC)
 
